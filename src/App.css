@@ -23,6 +23,19 @@
   justify-content: center;
   align-items: center;
 }
+.attribution{
+  position:absolute;
+  bottom: 10px;
+  color: var(--Dark-Grayish-Blue);
+}
+a{
+  color: var(--Grayish-Blue);
+  text-decoration: none;
+}
+.github{
+  color: var(--Neon-Green);
+  
+}
 
 .card{
   max-width: 30rem;
@@ -44,6 +57,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  letter-spacing: .1rem;
   font-size: var(--font-size);
   font-weight: var(--fontWeight);
   color: var(--Light-Cyan);
