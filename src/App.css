@@ -1,6 +1,28 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+:root{
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+
+  --font-size: 28px;
+  --fontWeight: 800;
+}
+
 .App{
   height: 100vh;
+  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card{
+  background-color: brown;
 }
