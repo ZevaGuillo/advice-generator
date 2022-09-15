@@ -5,7 +5,7 @@ import icon from '../images/icon-dice.svg'
 import divider from '../images/pattern-divider-desktop.svg'
 
 function Card(){
-    const [advice, setAdvice] = React.useState('Don't take it personally.');
+    const [advice, setAdvice] = React.useState("Don't take it personally.");
     const [adviceId, setAdviceId] = React.useState('');
     const [loading, setLoading] = React.useState(true);
 
